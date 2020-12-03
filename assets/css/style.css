@@ -21,8 +21,7 @@ body {
 header {
     padding: 20px 30px;
     font-family: Geneva, Helvetica, Arial, sans-serif;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-image: url("../images/ggbridge.jpg");
 }
 
 header h1 {
@@ -32,11 +31,13 @@ header h1 {
     color: var(--secondary-color);
     margin: 0;
     display: inline;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
 }
 .last-name {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-size: 38px;
     color: #808080;
+    text-shadow: 0 0 13px rgba(255, 255, 255, 0.8);
 }
 header a {
     text-decoration: none;
@@ -60,10 +61,36 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
 }
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
 }
+
+/* start of hero styling */
+
+/* start of footer styling */
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+}
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    margin: 0;
+    display: inline;
+}
+footer copywrite {
+    color: var(--secondary-color);
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+5
