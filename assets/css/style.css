@@ -68,7 +68,7 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-/* start of hero styling */
+/* styling for hero section */
 .hero {
     background-image: url("../images/ggbridge.jpg");
     background-size: cover;
@@ -94,8 +94,8 @@ header nav ul li a:hover {
     border-bottom: 4px solid var(--tertiary-color);
     padding: 0 100px 20px 100px;
     display: inline-block;
-
-/* start of footer styling */
+}
+/* styling for footer section */
 
 footer {
     background: var(--primary-color);
@@ -117,4 +117,4 @@ footer copywrite {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-size: 16px;
     padding-top: 10px;
-5
+}
