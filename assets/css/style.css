@@ -98,6 +98,7 @@ header nav ul li a:hover {
 
 
 /* styling for About Me section */
+
 .about-me {
     width: 100%;
     padding: 20px 40px 20px 20px;
@@ -111,7 +112,7 @@ header nav ul li a:hover {
 }
 .meet-aaron img {
     height: 95%;
-    margin: 50px;
+    margin: auto;
 }
 .float-right {
     float: right;
@@ -131,14 +132,13 @@ header nav ul li a:hover {
     text-align: justify;
     padding: 30px 30px 30px 30px;
     width: 40%;
-    display: center;
-    margin-left: 210px;
+    display: left;
+    margin-left: 15rem;
 }
 /* Styling for Work section */
 .work {
     width: 100%;
     padding: 20px 40px 20px 20px;
-    background-color: yellow;
 }
 .work-aaron{
     text-align: center;
@@ -181,3 +181,44 @@ footer copywrite {
     font-size: 16px;
     padding-top: 10px;
 }
+/* Media Query for 945px */
+@media screen and (max-width: 980px){
+    .hero {
+        display: block;
+    }
+    .meet-aaron p {
+    margin-left: 3rem;
+    }
+}
+/* Media Query for 758px */
+@media screen and (max-width: 758px){
+    .meet-aaron img {
+        height: 50%;
+        margin: auto;
+        display: inline;
+        }
+    .float-right {
+        float: center;
+        margin-left: 0px;
+        }
+    .meet-aaron p {
+        color: var(--tertiary-color);
+        font-size: 20px;
+        font-family: Geneva, Helvetica, Arial, sans-serif;
+        text-align: justify;
+        /* padding: 30px 30px 30px 30px; */
+        /* width: 40%; */
+        /* display: left; */
+        /* margin-left: 10rem; */
+        display: inline;
+        }
+    .meet-aaron h2 {
+        color: var(--secondary-color);
+        font-size: 30px;
+        font-family: Geneva, Helvetica, Arial, sans-serif;
+        text-align: center;
+        display: inline;
+        text-align: justify;
+        /* padding-top: 150px; */
+        }
+    }
