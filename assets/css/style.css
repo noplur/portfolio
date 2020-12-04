@@ -151,13 +151,90 @@ header nav ul li a:hover {
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
     margin: 20px 0 60px 0;
 }
-.first-row img {
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 75%;
+}
+.work-grid-container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 50%;
+}
+.work-grid-item {
+    box-shadow: 0 0 11px var(--tertiary-color, 0.7);
+    padding: 1em;
+    color: red;
+    height: 100%;
+}
+.box1 {
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+    background-image: url("../images/runbuddy.jpg"); 
+}
+.box2 {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+    background-image: url("../images/arphotoj.jpg");
+}
+.box3 {
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+    background-image: url("../images/zombies.jpg");
+}
+.box4 {
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+    background-image: url("../images/sunflowers.jpg");
+}
+.box5 {
+    grid-column: 2 /span 1;
+    grid-row: 3/span 1;
+    background-image: url("../images/ferriswheel.jpg");
+}
+.work-img {
+    /* background-image: url("../images/runbuddy.jpg"); */
+    background-size: cover;
+}
+/* .box2, .box3, .box4, .box5 {
+    height: 60%;
+} */
+/* .first-row img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+} */
+/* .work-grid-container {
+    display: grid;
+    max-width: 940px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
 }
-
+.work-grid-item {
+    background-color: orange;
+    border: solid;
+    padding: 1em;
+    color: red;
+}
+.work-grid-item.both {
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.box2 {
+    grid-column: 2/1; 
+    grid-row: 2/1; 
+}
+.box3 {
+    grid-column: 2/2; 
+    grid-row: 2/2; 
+} */
 /* styling for footer section */
 
 footer {
