@@ -136,6 +136,7 @@ header nav ul li a:hover {
     margin-left: 15rem;
 }
 /* Styling for Work section */
+
 .work {
     width: 100%;
     padding: 20px 40px 20px 20px;
@@ -216,30 +217,47 @@ header nav ul li a:hover {
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
     margin: 20px 0 60px 0;
 }
-
-/* styling for Footer section */
-
-footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-}
-footer h2 {
+footer a {
+    text-decoration: none;
     color: var(--secondary-color);
-    font-size: 28px;
-    margin: 0;
+}
+footer nav {
+    float: none;
+    margin: 0 20 20 20;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer nav ul li {
     display: inline;
 }
-footer copywrite {
-    color: var(--secondary-color);
+footer nav ul li a {
     font-family: Geneva, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    padding-top: 10px;
+    margin: 0 30px;
+    font-weight: lighter;
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.8);
 }
+footer nav ul li a:hover {
+    color: var(--tertiary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+li:nth-child(odd) {
+    font-size: 24px;
+}
+li:nth-child(4) {
+    font-size: 24px;
+}
+
+li:nth-child(2) {
+    font-size: 20px;
+}
+
 /* Media Query for 945px */
 @media screen and (max-width: 980px){
     .hero {
