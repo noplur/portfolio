@@ -69,6 +69,7 @@ header nav ul li a:hover {
 }
 
 /* styling for hero section */
+
 .hero {
     background-image: url("../images/ggbridge.jpg");
     background-size: cover;
@@ -152,6 +153,8 @@ header nav ul li a:hover {
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
     margin: 20px 0 60px 0;
 }
+        /* Begin Styling for Grid in Work Section */
+
 .work-grid-wrapper {
     display: flex;
     width: 100%;
@@ -309,6 +312,31 @@ li:nth-child(2) {
     font-size: 20px;
 }
 
+/* Media Query for 1074px */
+@media screen and (max-width: 1074px){
+    .meet-aaron p {
+        margin-left: 10rem;
+    }
+    .box-text {
+        padding: 10px;
+    }
+    .contact-aaron h2 {
+        margin: 20px 0 20px 0;
+    }
+    footer nav ul {
+        display: inline;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .work-grid-container {
+        width: 75%;
+    }
+    footer nav ul {
+        display: inline-block;
+    }
+}
 /* Media Query for 945px */
 @media screen and (max-width: 980px){
     .hero {
@@ -321,7 +349,7 @@ li:nth-child(2) {
 /* Media Query for 758px */
 @media screen and (max-width: 758px){
     .meet-aaron img {
-        height: 50%;
+        height: 70%;
         margin: auto;
         display: inline;
         }
@@ -334,11 +362,6 @@ li:nth-child(2) {
         font-size: 20px;
         font-family: Geneva, Helvetica, Arial, sans-serif;
         text-align: justify;
-        /* padding: 30px 30px 30px 30px; */
-        /* width: 40%; */
-        /* display: left; */
-        /* margin-left: 10rem; */
-        display: inline;
         }
     .meet-aaron h2 {
         color: var(--secondary-color);
@@ -347,6 +370,46 @@ li:nth-child(2) {
         text-align: center;
         display: inline;
         text-align: justify;
-        /* padding-top: 150px; */
+        padding-left: 15%;
         }
     }
+
+/* Media Query for 610px */
+@media screen and (max-width: 610px){
+        .meet-aaron img {
+            height: 60%;
+        }
+}
+/* Media Query for 580px */
+@media screen and (max-width: 580px){
+        .work-aaron h2 {
+            margin: 80px 0 60px 0;
+        }
+}
+/* Media Query for 538px */
+@media screen and (max-width: 538px){
+        .work-aaron h2 {
+        margin: 440px 0 60px 0;
+    }
+}
+/* Media Query for 414px */
+@media screen and (max-width: 414px){
+    .work-aaron h2 {
+    margin: 600px 0 60px 0;
+    }
+}
+/* Media Query for 400px */
+@media screen and (max-width: 400px){
+    .meet-aaron img {
+        height: 40%;
+        }
+    .meet-aaron h2 {
+        padding-left: 0;
+        }
+   .meet-aaron p {
+        margin-left: 1rem;
+        }
+    .work-aaron h2 {
+        margin: 280px 0 60px 0;
+    }
+}
