@@ -335,6 +335,7 @@ li:nth-child(2) {
     }
     footer nav ul {
         display: inline-block;
+        margin: 0;
     }
 }
 /* Media Query for 945px */
@@ -342,8 +343,20 @@ li:nth-child(2) {
     .hero {
         display: block;
     }
+    .hero h2 {
+        /* color: var(--secondary-color);
+        font-size: 36px;
+        font-family: Geneva, Helvetica, Arial, sans-serif;
+        text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+        margin: 20px 0 60px 0;
+        text-align: center; */
+        display: inline-flex;
+    }
     .meet-aaron p {
     margin-left: 3rem;
+    }
+    .primary-border {
+        padding: 0px;
     }
 }
 /* Media Query for 758px */
@@ -379,37 +392,47 @@ li:nth-child(2) {
         .meet-aaron img {
             height: 60%;
         }
+        .box-text {
+            margin-block-start: 3em;
+        }
 }
 /* Media Query for 580px */
 @media screen and (max-width: 580px){
         .work-aaron h2 {
-            margin: 80px 0 60px 0;
+            margin: 20px 0 60px 0;
+        }
+        .about-me {
+            width: 100%;
+            padding: 20px 40px 20px 0px;
         }
 }
-/* Media Query for 538px */
-@media screen and (max-width: 538px){
-        .work-aaron h2 {
-        margin: 440px 0 60px 0;
+/* Media Query for 528px */
+@media screen and (max-width: 528px){
+        .work-aaron {
+        padding-top: 140px;
     }
 }
-/* Media Query for 414px */
-@media screen and (max-width: 414px){
-    .work-aaron h2 {
-    margin: 600px 0 60px 0;
+/* Media Query for 470px */
+@media screen and (max-width: 470px){
+    .work-aaron {
+        padding-top: 380px;
     }
 }
-/* Media Query for 400px */
-@media screen and (max-width: 400px){
+/* Media Query for 420px */
+@media screen and (max-width: 420px){
     .meet-aaron img {
         height: 40%;
         }
     .meet-aaron h2 {
         padding-left: 0;
         }
-   .meet-aaron p {
+    .meet-aaron p {
         margin-left: 1rem;
         }
-    .work-aaron h2 {
-        margin: 280px 0 60px 0;
+    .work-aaron {
+        padding-top: 300px;
+    }
+    .box-text {
+        margin-left: -15px;
     }
 }
