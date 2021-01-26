@@ -180,7 +180,7 @@ header nav ul li a:hover {
 .box1 {
     grid-column: 1/span 2;
     grid-row: 1/span 1;
-    background-image: url("../images/runbuddy.jpg");
+    background-image: url("../images/weather-dashboard.jpg");
     position: relative;
 }
 .box1:hover {
@@ -215,7 +215,7 @@ header nav ul li a:hover {
 .box2 {
     grid-column: 1/span 1;
     grid-row: 2/span 1;
-    background-image: url("../images/arphotoj.jpg");
+    background-image: url("../images/team4music.jpg");
 }
 .box2:hover {
     opacity: 0.6;
@@ -224,7 +224,7 @@ header nav ul li a:hover {
 .box3 {
     grid-column: 2/span 1;
     grid-row: 2/span 1;
-    background-image: url("../images/zombies.jpg");
+    background-image: url("../images/workday_scheduler.jpg");
 }
 .box3:hover {
     opacity: 0.6;
@@ -234,7 +234,7 @@ header nav ul li a:hover {
 .box4 {
     grid-column: 1/span 1;
     grid-row: 3/span 1;
-    background-image: url("../images/sunflowers.jpg");
+    background-image: url("../images/codequiz.jpg");
 }
 .box4:hover {
     opacity: 0.6;
@@ -243,7 +243,7 @@ header nav ul li a:hover {
 .box5 {
     grid-column: 2 /span 1;
     grid-row: 3/span 1;
-    background-image: url("../images/ferriswheel.jpg");
+    background-image: url("../images/runbuddy.jpg");
 }
 .box5:hover {
     opacity: 0.6;
