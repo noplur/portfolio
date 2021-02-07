@@ -197,6 +197,7 @@ header nav ul li a:hover {
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     background-color: rgba(128, 128, 128, 1);
     margin-block-start: 4em;
+    text-align: center;
 }
 .box-text h3 {
     font-size: 26px;
@@ -322,6 +323,61 @@ header nav ul li a:hover {
     opacity: 0.6;
     transition: all, 1.5s 0.3s;
 }
+.box-code {
+    padding: 10px;
+    line-height: 1.3;
+    display: inline-block;
+    position: absolute;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color, 1.0);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    background-color: rgb(182, 182, 182);
+    margin-block-start: 10.5em;
+    margin-left: 15px;
+}
+.box-code:hover {
+    opacity: 0.6;
+    transition: all, 1.5s 0.3s;
+}
+.box-code2 {
+    padding: 10px;
+    line-height: 1.3;
+    display: inline-block;
+    position: absolute;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color, 1.0);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    background-color: rgb(182, 182, 182);
+    margin-block-start: 24.8em;
+    margin-left: 15px;
+}
+.box-code2:hover {
+    opacity: 0.6;
+    transition: all, 1.5s 0.3s;
+}
+.box-code3 {
+    padding: 10px;
+    line-height: 1.3;
+    display: inline-block;
+    position: absolute;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    color: var(--primary-color, 1.0);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    background-color: rgb(182, 182, 182);
+    margin-block-start: 24.8em;
+    margin-left: 26.5%;
+}
+.box-code3:hover {
+    opacity: 0.6;
+    transition: all, 1.5s 0.3s;
+}
+.box-code h3, .box-code2 h3, .box-code3 h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
 
 /* styling for Contact section */
 
@@ -413,7 +469,11 @@ li:nth-child(2) {
         display: inline-block;
         margin: 0;
     }
+    .box-code3 {
+    margin-left: 40%;
+    }
 }
+
 /* Media Query for 945px */
 @media screen and (max-width: 980px){
     .hero {
@@ -480,6 +540,9 @@ li:nth-child(2) {
         .about-me {
             width: 100%;
             padding: 20px 40px 20px 0px;
+        }
+        .box-code3 {
+            margin-left: 250px;
         }
 }
 /* Media Query for 528px */
