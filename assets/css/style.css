@@ -244,7 +244,7 @@ header nav ul li a:hover {
 .box5 {
     grid-column: 2 /span 1;
     grid-row: 3/span 1;
-    background-image: url("../images/runbuddy.jpg");
+    background-image: url("../images/on-track-employee-tracker.jpg");
 }
 .box5:hover {
     opacity: 0.6;
@@ -316,7 +316,7 @@ header nav ul li a:hover {
 .recent-projects-box3 {
     grid-column: 2/span 1;
     grid-row: 2/span 1;
-    background-image: url("../images/portfolio-generator.jpg");
+    background-image: url("../images/my_team_maker.jpg");
     position: relative;
 }
 .recent-projects-box3:hover {
