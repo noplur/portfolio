@@ -80,16 +80,14 @@ header nav ul li a:hover {
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
-  }
-.hero h2 {
     color: var(--secondary-color);
     font-size: 36px;
     font-family: Geneva, Helvetica, Arial, sans-serif;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-    margin: 20px 0 60px 0;
+    margin: 40px 0 60px 0;
     display: flex;
     text-align: center;
-}
+  }
 .primary-border {
     border-color: var(--primary-color);
     border-bottom: 4px solid var(--tertiary-color);
@@ -155,100 +153,120 @@ header nav ul li a:hover {
 }
         /* Begin Styling for Grid in Work Section */
 
-.work-grid-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    height: 75%;
+.work-section {
+    width: 60%;
 }
-.work-grid-container {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 20px;
-    width: 50%;
-}
-.work-grid-item {
-    box-shadow: 0 0 16px var(--tertiary-color, 0.7);
-    padding: 1em;
-}
-.work-img {
+
+.work-section-1 {
+    height: 20%;
+    margin-bottom: 3%;
+    position: relative;
     background-size: cover;
-    opacity: 1;
-    position: relative;
-}
-.box1 {
-    grid-column: 1/span 2;
-    grid-row: 1/span 1;
     background-image: url("../images/weather-dashboard.jpg");
-    position: relative;
 }
-.box1:hover {
-    opacity: 0.6;
+
+.work-section-1:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
+    text-decoration: none;
 }
-.box-text {
-    padding: 25px;
-    line-height: 1.3;
-    display: inline-block;
-    position: absolute;
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    color: var(--primary-color, 1.0);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background-color: rgba(128, 128, 128, 1);
-    margin-block-start: 4em;
-    text-align: center;
+.work-section-2 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    background-size: cover;
+    background-image: url("../images/re-markable-high-tech-blog.jpg");
 }
-.box-text h3 {
-    font-size: 26px;
-    font-weight: bold;
-}
-.box-text h4 {
-    font-size: 22px;
-    font-weight: bold;
-}
-.box-text p {
-    font-size: 20px;
-}
-.box-text p2 {
-    font-size: 16px;
-}
-.box2 {
-    grid-column: 1/span 1;
-    grid-row: 2/span 1;
-    background-image: url("../images/team4music.jpg");
-}
-.box2:hover {
-    opacity: 0.6;
+
+.work-section-2:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
+    text-decoration: none;
 }
-.box3 {
-    grid-column: 2/span 1;
-    grid-row: 2/span 1;
+.work-section-3 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    background-size: cover;
+    background-image: url("../images/easy_e_commerce.jpg");
+}
+
+.work-section-3:hover {
+    opacity: 0.5;
+    transition: all, 1.5s 0.3s;
+    text-decoration: none;
+}
+.work-section-4 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    background-size: cover;
     background-image: url("../images/workday_scheduler.jpg");
 }
-.box3:hover {
-    opacity: 0.6;
+.work-section-4:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
-    
+    text-decoration: none;
 }
-.box4 {
-    grid-column: 1/span 1;
-    grid-row: 3/span 1;
-    background-image: url("../images/codequiz.jpg");
-}
-.box4:hover {
-    opacity: 0.6;
-    transition: all, 1.5s 0.3s;
-}
-.box5 {
-    grid-column: 2 /span 1;
-    grid-row: 3/span 1;
+.work-section-5 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    background-size: cover;
     background-image: url("../images/on-track-employee-tracker.jpg");
 }
-.box5:hover {
-    opacity: 0.6;
+.work-section-5:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
+    text-decoration: none;
+}
+.work-section-1-btn {
+    width: 45%;
+    height: 50%;
+    margin-top: 7%;
+    margin-left: 5%;
+    border-radius: 5px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}
+.work-section-2-btn {
+    width: 65%;
+    height: 40%;
+    margin-top: 12%;
+    margin-left: 5%;
+    border-radius: 5px;
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}
+.button-h1 {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}.button-h2 {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}
+.button-h3 {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}.button-h4 {
+    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
 }
 
 /* Styling for Recent Projects section */
@@ -271,112 +289,46 @@ header nav ul li a:hover {
 
 /* Begin Styling for Grid in Recent Projects Section */
 
-.recent-projects-grid-wrapper {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    height: 50%;
-}
-.recent-projects-grid-container {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-    width: 50%;
-}
-.recent-projects-grid-item {
-    box-shadow: 0 0 16px var(--tertiary-color, 0.7);
-    padding: 1em;
-}
-.recent-projects-img {
+.recent-section-1 {
+    height: 20%;
+    margin-bottom: 3%;
+    position: relative;
     background-size: cover;
-    opacity: 1;
-    position: relative;
-}
-.recent-projects-box1 {
-    grid-column: 1/span 2;
-    grid-row: 1/span 1;
     background-image: url("../images/team4music.jpg");
-    position: relative;
 }
-.recent-projects-box1:hover {
-    opacity: 0.6;
+
+.recent-section-1:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
+    text-decoration: none;
 }
-.recent-projects-box2 {
-    grid-column: 1/span 1;
-    grid-row: 2/span 1;
+.recent-section-2 {
+    height: 20%;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    position: relative;
+    background-size: cover;
     background-image: url("../images/readme-maker.jpg");
-    position: relative;
 }
-.recent-projects-box2:hover {
-    opacity: 0.6;
+
+.recent-section-2:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
+    text-decoration: none;
 }
-.recent-projects-box3 {
-    grid-column: 2/span 1;
-    grid-row: 2/span 1;
+.recent-section-3 {
+    height: 20%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    position: relative;
+    background-size: cover;
     background-image: url("../images/my_team_maker.jpg");
-    position: relative;
 }
-.recent-projects-box3:hover {
-    opacity: 0.6;
+
+.recent-section-3:hover {
+    opacity: 0.5;
     transition: all, 1.5s 0.3s;
-}
-.box-code {
-    padding: 10px;
-    line-height: 1.3;
-    display: inline-block;
-    position: absolute;
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    color: var(--primary-color, 1.0);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    background-color: rgb(182, 182, 182);
-    margin-block-start: 10.5em;
-    margin-left: 15px;
-}
-.box-code:hover {
-    opacity: 0.6;
-    transition: all, 1.5s 0.3s;
-}
-.box-code2 {
-    padding: 10px;
-    line-height: 1.3;
-    display: inline-block;
-    position: absolute;
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    color: var(--primary-color, 1.0);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    background-color: rgb(182, 182, 182);
-    margin-block-start: 24.8em;
-    margin-left: 15px;
-}
-.box-code2:hover {
-    opacity: 0.6;
-    transition: all, 1.5s 0.3s;
-}
-.box-code3 {
-    padding: 10px;
-    line-height: 1.3;
-    display: inline-block;
-    position: absolute;
-    font-family: Geneva, Helvetica, Arial, sans-serif;
-    color: var(--primary-color, 1.0);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    background-color: rgb(182, 182, 182);
-    margin-block-start: 24.8em;
-    margin-left: 26.5%;
-}
-.box-code3:hover {
-    opacity: 0.6;
-    transition: all, 1.5s 0.3s;
-}
-.box-code h3, .box-code2 h3, .box-code3 h3 {
-    font-size: 16px;
-    font-weight: normal;
 }
 
 /* styling for Contact section */
@@ -478,14 +430,9 @@ li:nth-child(2) {
 @media screen and (max-width: 980px){
     .hero {
         display: block;
+        
     }
     .hero h2 {
-        /* color: var(--secondary-color);
-        font-size: 36px;
-        font-family: Geneva, Helvetica, Arial, sans-serif;
-        text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-        margin: 20px 0 60px 0;
-        text-align: center; */
         display: inline-flex;
     }
     .meet-aaron p {
@@ -493,6 +440,7 @@ li:nth-child(2) {
     }
     .primary-border {
         padding: 0px;
+
     }
 }
 /* Media Query for 758px */
