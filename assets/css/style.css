@@ -390,6 +390,9 @@ li:nth-child(2) {
     .meet-aaron p {
         margin-left: 10rem;
     }
+    .meet-aaron h2 {
+        margin-bottom: 3%;
+    }
     .box-text {
         padding: 10px;
     }
@@ -417,7 +420,12 @@ li:nth-child(2) {
     margin-left: 40%;
     }
 }
-
+/* Media Query for 1026px */
+@media screen and (max-width: 1026px){
+    .meet-aaron h2 {
+        padding-top: 0;
+    }
+}
 /* Media Query for 945px */
 @media screen and (max-width: 980px){
     .hero {
@@ -435,8 +443,8 @@ li:nth-child(2) {
 
     }
 }
-/* Media Query for 758px */
-@media screen and (max-width: 758px){
+/* Media Query for 768px */
+@media screen and (max-width: 768px){
     .meet-aaron img {
         height: 70%;
         margin: auto;
@@ -461,7 +469,7 @@ li:nth-child(2) {
         text-align: justify;
         padding-left: 15%;
         }
-    }
+}
 
 /* Media Query for 610px */
 @media screen and (max-width: 610px){
@@ -513,9 +521,6 @@ li:nth-child(2) {
         width: 100%;
         padding: 20px 40px 20px 0px;
     }
-    .work-aaron h2 {
-        margin: 20px 0 60px 0;
-    }
     .meet-aaron p {
         font-size: 12px;
         }
@@ -524,9 +529,6 @@ li:nth-child(2) {
 @media screen and (max-width: 420px){
     .meet-aaron img {
         height: 40%;
-        }
-    .meet-aaron h2 {
-        padding-left: 0;
         }
     .meet-aaron p {
         margin-left: 1rem;
