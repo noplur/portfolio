@@ -66,7 +66,6 @@ header nav ul li a:hover {
     color: var(--primary-color);
     border-radius: 15px;
     text-shadow: none;
-    text-decoration: none;
 }
 
 /* styling for hero section */
@@ -154,19 +153,16 @@ header nav ul li a:hover {
 }
         /* Begin Styling for Grid in Work Section */
 
-.card {
-    background-color: black;
-}
-
 .work-section {
     width: 60%;
 }
 
 .work-section-1 {
+    height: 20%;
+    margin-bottom: 3%;
     position: relative;
     background-size: cover;
     background-image: url("../images/weather-dashboard.jpg");
-    border-radius: .25rem;
 }
 
 .work-section-1:hover {
@@ -175,9 +171,12 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .work-section-2 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-right: 1%;
     background-size: cover;
     background-image: url("../images/re-markable-high-tech-blog.jpg");
-    width: 100%;
 }
 
 .work-section-2:hover {
@@ -186,9 +185,12 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .work-section-3 {
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
     background-size: cover;
     background-image: url("../images/easy_e_commerce.jpg");
-    width: 100%;
 }
 
 .work-section-3:hover {
@@ -197,7 +199,10 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .work-section-4 {
-    width: 100%;
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
     background-size: cover;
     background-image: url("../images/workday_scheduler.jpg");
 }
@@ -207,7 +212,10 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .work-section-5 {
-    width: 100%;
+    height: 20%;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 1%;
     background-size: cover;
     background-image: url("../images/on-track-employee-tracker.jpg");
 }
@@ -218,6 +226,7 @@ header nav ul li a:hover {
 }
 .work-section-1-btn {
     width: 45%;
+    height: 50%;
     margin-top: 7%;
     margin-left: 5%;
     border-radius: 5px;
@@ -242,22 +251,18 @@ header nav ul li a:hover {
     font-size: 26px;
     color: black;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-}
-.button-h2 {
+}.button-h2 {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: black;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-    white-space:normal !important;
-    word-wrap: break-word;
 }
 .button-h3 {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: black;
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-}
-.button-h4 {
+}.button-h4 {
     font-family: Geneva, Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: black;
@@ -286,10 +291,10 @@ header nav ul li a:hover {
 
 .recent-section-1 {
     height: 20%;
+    margin-bottom: 3%;
     position: relative;
     background-size: cover;
-    background-image: url("../images/team4music.jpg");
-    border-radius: .25rem;
+    background-image: url("../images/cobart.jpg");
 }
 
 .recent-section-1:hover {
@@ -298,10 +303,12 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .recent-section-2 {
-    width: 100%;
+    height: 20%;
+    margin-bottom: 3%;
+    margin-right: 1%;
     position: relative;
     background-size: cover;
-    background-image: url("../images/readme-maker.jpg");
+    background-image: url("../images/team4music.jpg");
 }
 
 .recent-section-2:hover {
@@ -310,7 +317,9 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 .recent-section-3 {
-    width: 100%;
+    height: 20%;
+    margin-bottom: 3%;
+    margin-left: 1%;
     position: relative;
     background-size: cover;
     background-image: url("../images/my_team_maker.jpg");
@@ -371,7 +380,6 @@ footer nav ul li a:hover {
     color: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: none;
-    text-decoration: none;
 }
 
 li:nth-child(odd) {
@@ -389,9 +397,6 @@ li:nth-child(2) {
 @media screen and (max-width: 1074px){
     .meet-aaron p {
         margin-left: 10rem;
-    }
-    .meet-aaron h2 {
-        margin-bottom: 3%;
     }
     .box-text {
         padding: 10px;
@@ -420,12 +425,7 @@ li:nth-child(2) {
     margin-left: 40%;
     }
 }
-/* Media Query for 1026px */
-@media screen and (max-width: 1026px){
-    .meet-aaron h2 {
-        padding-top: 0;
-    }
-}
+
 /* Media Query for 945px */
 @media screen and (max-width: 980px){
     .hero {
@@ -443,8 +443,8 @@ li:nth-child(2) {
 
     }
 }
-/* Media Query for 768px */
-@media screen and (max-width: 768px){
+/* Media Query for 758px */
+@media screen and (max-width: 758px){
     .meet-aaron img {
         height: 70%;
         margin: auto;
@@ -456,20 +456,20 @@ li:nth-child(2) {
         }
     .meet-aaron p {
         color: var(--tertiary-color);
-        font-size: 16px;
+        font-size: 20px;
         font-family: Geneva, Helvetica, Arial, sans-serif;
         text-align: justify;
         }
     .meet-aaron h2 {
         color: var(--secondary-color);
-        font-size: 20px;
+        font-size: 30px;
         font-family: Geneva, Helvetica, Arial, sans-serif;
         text-align: center;
         display: inline;
         text-align: justify;
         padding-left: 15%;
         }
-}
+    }
 
 /* Media Query for 610px */
 @media screen and (max-width: 610px){
@@ -479,9 +479,6 @@ li:nth-child(2) {
         .box-text {
             margin-block-start: 3em;
         }
-        .meet-aaron p {
-            font-size: 12px;
-            }
 }
 /* Media Query for 580px */
 @media screen and (max-width: 580px){
@@ -498,50 +495,31 @@ li:nth-child(2) {
 }
 /* Media Query for 528px */
 @media screen and (max-width: 528px){
-    .work-aaron {
-    padding-top: 140px;
+        .work-aaron {
+        padding-top: 140px;
     }
-    .about-me {
-        width: 100%;
-        padding: 20px 40px 20px 0px;
-    }
-    .work-aaron h2 {
-        margin: 20px 0 60px 0;
-    }
-    .meet-aaron p {
-        font-size: 12px;
-        }
 }
 /* Media Query for 470px */
 @media screen and (max-width: 470px){
     .work-aaron {
         padding-top: 380px;
     }
-    .about-me {
-        width: 100%;
-        padding: 20px 40px 20px 0px;
-    }
-    .meet-aaron p {
-        font-size: 12px;
-        }
 }
 /* Media Query for 420px */
 @media screen and (max-width: 420px){
     .meet-aaron img {
         height: 40%;
         }
+    .meet-aaron h2 {
+        padding-left: 0;
+        }
     .meet-aaron p {
         margin-left: 1rem;
-        font-size: 12px;
         }
     .work-aaron {
         padding-top: 300px;
     }
     .box-text {
         margin-left: -15px;
-    }
-    .about-me {
-        width: 100%;
-        padding: 20px 40px 20px 0px;
     }
 }
