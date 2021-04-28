@@ -31,7 +31,7 @@ header {
 
 header h1 {
     font-family: Geneva, Helvetica, Arial, sans-serif;
-    font-display: bold;
+    display: inline;
     font-size: 34px;
     color: var(--primary-color);
     margin: 0;
